@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+    position: sticky;
+}
+.container {
+    display: flex;
+    background-color: skyblue;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    height: 80px;
+    margin: 0 auto;
+}
+.logo h1 {
+    margin: 30px;
+    color: white;
+}
+nav {
+    flex: 1;
+    text-align: center;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: underline;
+    font-size: 16px;
+    transition: color 0.3s;
+    display: inline-block;
+}
+.nav-links a:hover {
+    color: #ddd;
+}
+.search-container {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+.search-container input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    margin-right: 10px;
+}
+.search-container button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.search-container button:hover {
+    background-color: #777;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin: 5px 0;
+    }
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+.img_deg{
+     float: right;
+     margin-left: 20px;
+     margin-top: 20px;
+
+}
+.pos_cen{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 20%;
+}
+.pos_cen h1 {
+            color: #333;
+            font-size: 35px;
+            margin: 0;
+            padding-bottom: 20px;
+        }
+        .pos_cen h2{
+            color: #333;
+            font-size: 45px;
+            margin: 0;
+            padding-bottom: 20px
+        }
+        .pos_cen p {
+            font-size: 20px;
+            line-height: 1.5;
+            color: #666;
+            margin: 0;
+            padding-bottom: 20px;
+        }
+
+
+</style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>jM</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallary">Gallary</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#work">Work With Me</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Search</button>
+            </div>
+        </div>
+        
+    </header>
+    <div class="pos_cen">
+    <img src="images/aboutp11.jpg" class="img_deg">
+        <h2>About Us</h2>
+        <p>Creating memorable outdoor experiences in travel is about crafting moments that resonate deeply with travelers, leaving a lasting impression. These experiences are often characterized by a strong connection with nature, personal challenges, unique cultural encounters, and the sense of discovery. Here’s an explanation of what makes outdoor travel experiences truly memorable:</p>
+        <h1>1. Immersion in Nature</h1>
+        <p><b>with the Environment:</b> outdoor experiences are often rooted in the natural world. Being surrounded by awe-inspiring landscapes—whether it's towering mountains, dense forests, vast deserts, or pristine beaches—creates a sense of wonder and appreciation for the beauty and power of nature. Immersing oneself in these environments allows travelers to disconnect from the hustle and bustle of daily life and reconnect with the simplicity and serenity of the natural world.
+            <br><br>
+           <b>Sensory Engagement: </b>The sights, sounds, smells, and textures of the outdoors create a sensory-rich environment that enhances the travel experience. Whether it’s the sound of waves crashing on the shore, the crisp scent of pine trees in a forest, or the feeling of cool mountain air on your skin, these sensory details make the experience more vivid and memorable.</p>
+        <h1>2. Personal Challenges and Achievements</h1>
+        <p><b>Challenges: </b>Many memorable outdoor experiences involve some form of physical challenge, such as hiking a difficult trail, climbing a mountain, or kayaking down a river. Overcoming these challenges fosters a sense of accomplishment and personal growth. The journey itself becomes a powerful memory, especially when it pushes travelers out of their comfort zones and helps them discover their inner strength and resilience.
+            <br><br>
+            <b>Skill Development: </b>Engaging in outdoor activities often involves learning new skills, whether it’s setting up a campsite, navigating with a map and compass, or mastering the techniques of rock climbing or surfing. Acquiring and applying these skills can be deeply satisfying and contributes to the overall sense of achievement.</p>
+        <h1>3. Unique Cultural Encounters</h1> 
+        <p><b>Local Traditions and Customs: </b>Memorable outdoor experiences are often enriched by interactions with local cultures. Engaging with indigenous communities, participating in traditional ceremonies, or learning about local customs and history can add depth to the travel experience. These cultural encounters help travelers gain a deeper understanding of the places they visit and foster meaningful connections with the people who live there.
+            <br><br>
+            <b>Sustainable Tourism: </b>Responsible travel practices that respect local cultures and environments are increasingly important. Memorable outdoor experiences often involve sustainable tourism efforts, where travelers have the opportunity to give back to the communities they visit, support conservation efforts, and ensure that their presence has a positive impact on the environment.</p>      
+        </div>
+     
+</body>
+</html>
